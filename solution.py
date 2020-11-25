@@ -20,7 +20,6 @@ class Solution:
                 j+=1
             q = m[s[j-1]]*k             
             if j<len(s) and m[s[i]]<m[s[j]]:
-                print(s[i],m[s[i]],s[j],m[s[j]])
                 q=-q
             i = j
             r+=q
